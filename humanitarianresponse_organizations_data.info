@@ -1,0 +1,8 @@
+name = HumanitarianResponse Organizations Data
+description = Types of organizations
+core = 7.x
+package = Humanitarianresponse data
+dependencies[] = humanitarianresponse_organizations
+dependencies[] = uuid
+features[features_api][] = api:1
+features[uuid_entities][] = organization_types
