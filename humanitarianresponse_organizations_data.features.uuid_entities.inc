@@ -18,6 +18,8 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
     ),
     'description' => '',
     'format' => 'filtered_html',
+    'i18n_tsid' => '0',
+    'language' => 'und',
     'name' => 'Donor',
     'path' => array(
       'alias' => 'organization-types/donor',
@@ -63,6 +65,8 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
     ),
     'description' => '',
     'format' => 'filtered_html',
+    'i18n_tsid' => '0',
+    'language' => 'und',
     'name' => 'Government',
     'path' => array(
       'alias' => 'organization-types/government',
@@ -108,6 +112,8 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
     ),
     'description' => '',
     'format' => 'filtered_html',
+    'i18n_tsid' => '0',
+    'language' => 'und',
     'name' => 'International NGO',
     'path' => array(
       'alias' => 'organization-types/international-ngo',
@@ -153,6 +159,8 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
     ),
     'description' => '',
     'format' => 'filtered_html',
+    'i18n_tsid' => '0',
+    'language' => 'und',
     'name' => 'International Organization',
     'path' => array(
       'alias' => 'organization-types/international-organization',
@@ -198,6 +206,8 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
     ),
     'description' => '',
     'format' => 'filtered_html',
+    'i18n_tsid' => '0',
+    'language' => 'und',
     'name' => 'Red Cross',
     'path' => array(
       'alias' => 'organization-types/red-cross',
@@ -243,6 +253,8 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
     ),
     'description' => '',
     'format' => 'filtered_html',
+    'i18n_tsid' => '0',
+    'language' => 'und',
     'name' => 'Research',
     'path' => array(
       'alias' => 'organization-types/research',
@@ -288,6 +300,8 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
     ),
     'description' => '',
     'format' => 'filtered_html',
+    'i18n_tsid' => '0',
+    'language' => 'und',
     'name' => 'United Nations',
     'path' => array(
       'alias' => 'organization-types/united-nations',
@@ -333,6 +347,8 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
     ),
     'description' => '',
     'format' => 'filtered_html',
+    'i18n_tsid' => '0',
+    'language' => 'und',
     'name' => 'Media',
     'path' => array(
       'alias' => 'organization-types/media',
@@ -378,6 +394,8 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
     ),
     'description' => '',
     'format' => 'filtered_html',
+    'i18n_tsid' => '0',
+    'language' => 'und',
     'name' => 'Military',
     'path' => array(
       'alias' => 'organization-types/military',

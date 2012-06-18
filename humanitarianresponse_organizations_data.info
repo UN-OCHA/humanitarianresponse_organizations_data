@@ -2,6 +2,7 @@ name = HumanitarianResponse Organizations Data
 description = Types of organizations
 core = 7.x
 package = Humanitarianresponse data
+php = 5.2.4
 dependencies[] = humanitarianresponse_organizations
 dependencies[] = uuid
 features[features_api][] = api:1
