@@ -17,10 +17,27 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
       'cause' => FALSE,
     ),
     'description' => '',
+    'description_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'filtered_html',
+          'summary' => NULL,
+          'value' => '',
+        ),
+      ),
+    ),
     'format' => 'filtered_html',
     'i18n_tsid' => '0',
     'language' => 'und',
     'name' => 'Donor',
+    'name_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Donor',
+        ),
+      ),
+    ),
     'path' => array(
       'alias' => 'organization-types/donor',
       'pathauto' => FALSE,
@@ -64,10 +81,27 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
       'cause' => FALSE,
     ),
     'description' => '',
+    'description_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'filtered_html',
+          'summary' => NULL,
+          'value' => '',
+        ),
+      ),
+    ),
     'format' => 'filtered_html',
     'i18n_tsid' => '0',
     'language' => 'und',
     'name' => 'Government',
+    'name_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Government',
+        ),
+      ),
+    ),
     'path' => array(
       'alias' => 'organization-types/government',
       'pathauto' => FALSE,
@@ -111,10 +145,27 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
       'cause' => FALSE,
     ),
     'description' => '',
+    'description_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'filtered_html',
+          'summary' => NULL,
+          'value' => '',
+        ),
+      ),
+    ),
     'format' => 'filtered_html',
     'i18n_tsid' => '0',
     'language' => 'und',
     'name' => 'International NGO',
+    'name_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'International NGO',
+        ),
+      ),
+    ),
     'path' => array(
       'alias' => 'organization-types/international-ngo',
       'pathauto' => FALSE,
@@ -158,10 +209,27 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
       'cause' => FALSE,
     ),
     'description' => '',
+    'description_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'filtered_html',
+          'summary' => NULL,
+          'value' => '',
+        ),
+      ),
+    ),
     'format' => 'filtered_html',
     'i18n_tsid' => '0',
     'language' => 'und',
     'name' => 'International Organization',
+    'name_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'International Organization',
+        ),
+      ),
+    ),
     'path' => array(
       'alias' => 'organization-types/international-organization',
       'pathauto' => FALSE,
@@ -205,10 +273,27 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
       'cause' => FALSE,
     ),
     'description' => '',
+    'description_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'filtered_html',
+          'summary' => NULL,
+          'value' => '',
+        ),
+      ),
+    ),
     'format' => 'filtered_html',
     'i18n_tsid' => '0',
     'language' => 'und',
     'name' => 'Red Cross',
+    'name_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Red Cross',
+        ),
+      ),
+    ),
     'path' => array(
       'alias' => 'organization-types/red-cross',
       'pathauto' => FALSE,
@@ -252,10 +337,27 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
       'cause' => FALSE,
     ),
     'description' => '',
+    'description_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'filtered_html',
+          'summary' => NULL,
+          'value' => '',
+        ),
+      ),
+    ),
     'format' => 'filtered_html',
     'i18n_tsid' => '0',
     'language' => 'und',
     'name' => 'Research',
+    'name_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Research',
+        ),
+      ),
+    ),
     'path' => array(
       'alias' => 'organization-types/research',
       'pathauto' => FALSE,
@@ -299,10 +401,27 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
       'cause' => FALSE,
     ),
     'description' => '',
+    'description_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'filtered_html',
+          'summary' => NULL,
+          'value' => '',
+        ),
+      ),
+    ),
     'format' => 'filtered_html',
     'i18n_tsid' => '0',
     'language' => 'und',
     'name' => 'United Nations',
+    'name_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'United Nations',
+        ),
+      ),
+    ),
     'path' => array(
       'alias' => 'organization-types/united-nations',
       'pathauto' => FALSE,
@@ -346,10 +465,27 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
       'cause' => FALSE,
     ),
     'description' => '',
+    'description_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'filtered_html',
+          'summary' => NULL,
+          'value' => '',
+        ),
+      ),
+    ),
     'format' => 'filtered_html',
     'i18n_tsid' => '0',
     'language' => 'und',
     'name' => 'Media',
+    'name_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Media',
+        ),
+      ),
+    ),
     'path' => array(
       'alias' => 'organization-types/media',
       'pathauto' => FALSE,
@@ -393,10 +529,27 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
       'cause' => FALSE,
     ),
     'description' => '',
+    'description_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'filtered_html',
+          'summary' => NULL,
+          'value' => '',
+        ),
+      ),
+    ),
     'format' => 'filtered_html',
     'i18n_tsid' => '0',
     'language' => 'und',
     'name' => 'Military',
+    'name_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Military',
+        ),
+      ),
+    ),
     'path' => array(
       'alias' => 'organization-types/military',
       'pathauto' => FALSE,
