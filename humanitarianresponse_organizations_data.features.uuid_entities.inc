@@ -27,7 +27,6 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
       ),
     ),
     'format' => 'filtered_html',
-    'i18n_tsid' => '0',
     'language' => 'und',
     'name' => 'Donor',
     'name_field' => array(
@@ -91,7 +90,6 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
       ),
     ),
     'format' => 'filtered_html',
-    'i18n_tsid' => '0',
     'language' => 'und',
     'name' => 'Government',
     'name_field' => array(
@@ -155,7 +153,6 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
       ),
     ),
     'format' => 'filtered_html',
-    'i18n_tsid' => '0',
     'language' => 'und',
     'name' => 'International NGO',
     'name_field' => array(
@@ -219,7 +216,6 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
       ),
     ),
     'format' => 'filtered_html',
-    'i18n_tsid' => '0',
     'language' => 'und',
     'name' => 'International Organization',
     'name_field' => array(
@@ -283,7 +279,6 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
       ),
     ),
     'format' => 'filtered_html',
-    'i18n_tsid' => '0',
     'language' => 'und',
     'name' => 'Red Cross',
     'name_field' => array(
@@ -347,7 +342,6 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
       ),
     ),
     'format' => 'filtered_html',
-    'i18n_tsid' => '0',
     'language' => 'und',
     'name' => 'Research',
     'name_field' => array(
@@ -411,7 +405,6 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
       ),
     ),
     'format' => 'filtered_html',
-    'i18n_tsid' => '0',
     'language' => 'und',
     'name' => 'United Nations',
     'name_field' => array(
@@ -475,7 +468,6 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
       ),
     ),
     'format' => 'filtered_html',
-    'i18n_tsid' => '0',
     'language' => 'und',
     'name' => 'Media',
     'name_field' => array(
@@ -539,7 +531,6 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
       ),
     ),
     'format' => 'filtered_html',
-    'i18n_tsid' => '0',
     'language' => 'und',
     'name' => 'Military',
     'name_field' => array(
