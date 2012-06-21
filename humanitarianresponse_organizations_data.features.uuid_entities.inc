@@ -36,6 +36,18 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
           'value' => 'Donor',
         ),
       ),
+      'en' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Donor',
+        ),
+      ),
+      'fr' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Donateur',
+        ),
+      ),
     ),
     'path' => array(
       'alias' => 'organization-types/donor',
@@ -97,6 +109,18 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
         0 => array(
           'format' => NULL,
           'value' => 'Government',
+        ),
+      ),
+      'en' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Government',
+        ),
+      ),
+      'fr' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Gouvernement',
         ),
       ),
     ),
@@ -162,6 +186,18 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
           'value' => 'International NGO',
         ),
       ),
+      'en' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'International NGO',
+        ),
+      ),
+      'fr' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'ONG Internationale',
+        ),
+      ),
     ),
     'path' => array(
       'alias' => 'organization-types/international-ngo',
@@ -223,6 +259,18 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
         0 => array(
           'format' => NULL,
           'value' => 'International Organization',
+        ),
+      ),
+      'en' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'International Organization',
+        ),
+      ),
+      'fr' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Organisation Internationale',
         ),
       ),
     ),
@@ -288,6 +336,18 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
           'value' => 'Red Cross',
         ),
       ),
+      'en' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Red Cross',
+        ),
+      ),
+      'fr' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Croix Rouge',
+        ),
+      ),
     ),
     'path' => array(
       'alias' => 'organization-types/red-cross',
@@ -349,6 +409,18 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
         0 => array(
           'format' => NULL,
           'value' => 'Research',
+        ),
+      ),
+      'en' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Research',
+        ),
+      ),
+      'fr' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Recherche',
         ),
       ),
     ),
@@ -414,6 +486,18 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
           'value' => 'United Nations',
         ),
       ),
+      'en' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'United Nations',
+        ),
+      ),
+      'fr' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Nations Unies',
+        ),
+      ),
     ),
     'path' => array(
       'alias' => 'organization-types/united-nations',
@@ -477,6 +561,18 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
           'value' => 'Media',
         ),
       ),
+      'en' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Media',
+        ),
+      ),
+      'fr' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Médias',
+        ),
+      ),
     ),
     'path' => array(
       'alias' => 'organization-types/media',
@@ -538,6 +634,18 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
         0 => array(
           'format' => NULL,
           'value' => 'Military',
+        ),
+      ),
+      'en' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Military',
+        ),
+      ),
+      'fr' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Militaire',
         ),
       ),
     ),
