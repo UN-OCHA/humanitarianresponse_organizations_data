@@ -48,6 +48,12 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
           'value' => 'Donateur',
         ),
       ),
+      'es' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Donante',
+        ),
+      ),
     ),
     'path' => array(
       'alias' => 'organization-types/donor',
@@ -96,6 +102,12 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
           'status' => '1',
           'translate' => '0',
         ),
+        'es' => array(
+          'language' => 'es',
+          'source' => 'en',
+          'status' => '1',
+          'translate' => '0',
+        ),
       ),
     ),
     'uuid' => '2602f085-97ab-ecb4-e55e-ca2a4b4dfbb3',
@@ -138,6 +150,12 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
         0 => array(
           'format' => NULL,
           'value' => 'Gouvernement',
+        ),
+      ),
+      'es' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Gobierno',
         ),
       ),
     ),
@@ -188,6 +206,12 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
           'status' => '1',
           'translate' => '0',
         ),
+        'es' => array(
+          'language' => 'es',
+          'source' => 'en',
+          'status' => '1',
+          'translate' => '0',
+        ),
       ),
     ),
     'uuid' => 'f745d3aa-44fd-7b14-e1c2-af1aa29b77ff',
@@ -230,6 +254,12 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
         0 => array(
           'format' => NULL,
           'value' => 'ONG Internationale',
+        ),
+      ),
+      'es' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'ONG internacional',
         ),
       ),
     ),
@@ -280,6 +310,12 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
           'status' => '1',
           'translate' => '0',
         ),
+        'es' => array(
+          'language' => 'es',
+          'source' => 'en',
+          'status' => '1',
+          'translate' => '0',
+        ),
       ),
     ),
     'uuid' => 'bc624e17-41f2-24c4-11ea-886410fe0e3d',
@@ -322,6 +358,12 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
         0 => array(
           'format' => NULL,
           'value' => 'Organisation Internationale',
+        ),
+      ),
+      'es' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Organismo internacional',
         ),
       ),
     ),
@@ -372,6 +414,12 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
           'status' => '1',
           'translate' => '0',
         ),
+        'es' => array(
+          'language' => 'es',
+          'source' => 'en',
+          'status' => '1',
+          'translate' => '0',
+        ),
       ),
     ),
     'uuid' => '7299c269-3aa3-9044-e161-c6ebe2e6d6c2',
@@ -414,6 +462,12 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
         0 => array(
           'format' => NULL,
           'value' => 'Croix Rouge',
+        ),
+      ),
+      'es' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Cruz Roja',
         ),
       ),
     ),
@@ -464,6 +518,12 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
           'status' => '1',
           'translate' => '0',
         ),
+        'es' => array(
+          'language' => 'es',
+          'source' => 'en',
+          'status' => '1',
+          'translate' => '0',
+        ),
       ),
     ),
     'uuid' => '3f56eeff-83ad-fca4-c12c-ab265e846b17',
@@ -506,6 +566,12 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
         0 => array(
           'format' => NULL,
           'value' => 'Recherche',
+        ),
+      ),
+      'es' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Investigación',
         ),
       ),
     ),
@@ -556,6 +622,12 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
           'status' => '1',
           'translate' => '0',
         ),
+        'es' => array(
+          'language' => 'es',
+          'source' => 'en',
+          'status' => '1',
+          'translate' => '0',
+        ),
       ),
     ),
     'uuid' => '02c1b1cb-2a3f-1c44-6943-1919a6d70b07',
@@ -598,6 +670,12 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
         0 => array(
           'format' => NULL,
           'value' => 'Nations Unies',
+        ),
+      ),
+      'es' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Naciones Unidas',
         ),
       ),
     ),
@@ -648,6 +726,12 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
           'status' => '1',
           'translate' => '0',
         ),
+        'es' => array(
+          'language' => 'es',
+          'source' => 'en',
+          'status' => '1',
+          'translate' => '0',
+        ),
       ),
     ),
     'uuid' => 'e1a4ac46-e99f-b2d4-b13a-3f0502760aad',
@@ -690,6 +774,12 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
         0 => array(
           'format' => NULL,
           'value' => 'Médias',
+        ),
+      ),
+      'es' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Medios de comunicación',
         ),
       ),
     ),
@@ -740,6 +830,12 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
           'status' => '1',
           'translate' => '0',
         ),
+        'es' => array(
+          'language' => 'es',
+          'source' => 'en',
+          'status' => '1',
+          'translate' => '0',
+        ),
       ),
     ),
     'uuid' => 'da9a64b6-03c5-ffb4-8d5b-dbdedd65ac71',
@@ -782,6 +878,12 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
         0 => array(
           'format' => NULL,
           'value' => 'Militaire',
+        ),
+      ),
+      'es' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Fuerzas Armadas',
         ),
       ),
     ),
@@ -828,6 +930,12 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
         ),
         'fr' => array(
           'language' => 'fr',
+          'source' => 'en',
+          'status' => '1',
+          'translate' => '0',
+        ),
+        'es' => array(
+          'language' => 'es',
           'source' => 'en',
           'status' => '1',
           'translate' => '0',
