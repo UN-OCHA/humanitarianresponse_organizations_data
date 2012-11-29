@@ -548,35 +548,35 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
     ),
     'format' => 'filtered_html',
     'language' => 'und',
-    'name' => 'Research',
+    'name' => 'Academic / Research',
     'name_field' => array(
       'und' => array(
         0 => array(
           'format' => NULL,
-          'value' => 'Research',
+          'value' => 'Academic / Research',
         ),
       ),
       'en' => array(
         0 => array(
           'format' => NULL,
-          'value' => 'Research',
+          'value' => 'Academic / Research',
         ),
       ),
       'fr' => array(
         0 => array(
           'format' => NULL,
-          'value' => 'Recherche',
+          'value' => 'Académique / Recherche',
         ),
       ),
       'es' => array(
         0 => array(
           'format' => NULL,
-          'value' => 'Investigación',
+          'value' => 'Académico / Investigación',
         ),
       ),
     ),
     'path' => array(
-      'alias' => 'organization-types/research',
+      'alias' => 'organization-types/academic-research',
       'pathauto' => FALSE,
     ),
     'rdf_mapping' => array(
@@ -634,6 +634,217 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
     'vocabulary_machine_name' => 'organization_types',
     'weight' => '0',
   );
+  
+  $entities['organization_types'][] = (object) array(
+    '__metadata' => array(
+      'type' => 'taxonomy_term',
+      'uri' => 'taxonomy_term/3f126a55-8bb6-4ce3-b316-866e3857b4ab',
+      'cause' => FALSE,
+    ),
+    'description' => '',
+    'description_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'filtered_html',
+          'summary' => NULL,
+          'value' => '',
+        ),
+      ),
+    ),
+    'format' => 'filtered_html',
+    'language' => 'und',
+    'name' => 'National NGO',
+    'name_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'National NGO',
+        ),
+      ),
+      'en' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'National NGO',
+        ),
+      ),
+      'fr' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'ONG Nationale',
+        ),
+      ),
+      'es' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'ONG Nacional',
+        ),
+      ),
+    ),
+    'path' => array(
+      'alias' => 'organization-types/national-ngo',
+      'pathauto' => FALSE,
+    ),
+    'rdf_mapping' => array(
+      'rdftype' => array(
+        0 => 'skos:Concept',
+      ),
+      'name' => array(
+        'predicates' => array(
+          0 => 'rdfs:label',
+          1 => 'skos:prefLabel',
+        ),
+      ),
+      'description' => array(
+        'predicates' => array(
+          0 => 'skos:definition',
+        ),
+      ),
+      'vid' => array(
+        'predicates' => array(
+          0 => 'skos:inScheme',
+        ),
+        'type' => 'rel',
+      ),
+      'parent' => array(
+        'predicates' => array(
+          0 => 'skos:broader',
+        ),
+        'type' => 'rel',
+      ),
+    ),
+    'translations' => array(
+      'original' => 'en',
+      'data' => array(
+        'en' => array(
+          'language' => 'en',
+          'source' => '',
+          'status' => '1',
+          'translate' => '0',
+        ),
+        'fr' => array(
+          'language' => 'fr',
+          'source' => 'en',
+          'status' => '1',
+          'translate' => '0',
+        ),
+        'es' => array(
+          'language' => 'es',
+          'source' => 'en',
+          'status' => '1',
+          'translate' => '0',
+        ),
+      ),
+    ),
+    'uuid' => '3f126a55-8bb6-4ce3-b316-866e3857b4ab',
+    'vocabulary_machine_name' => 'organization_types',
+    'weight' => '0',
+  );
+  
+  $entities['organization_types'][] = (object) array(
+    '__metadata' => array(
+      'type' => 'taxonomy_term',
+      'uri' => 'taxonomy_term/abe34e64-aabc-47dd-ae33-c2760e1d536d',
+      'cause' => FALSE,
+    ),
+    'description' => '',
+    'description_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'filtered_html',
+          'summary' => NULL,
+          'value' => '',
+        ),
+      ),
+    ),
+    'format' => 'filtered_html',
+    'language' => 'und',
+    'name' => 'Other',
+    'name_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Other',
+        ),
+      ),
+      'en' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Other',
+        ),
+      ),
+      'fr' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Autre',
+        ),
+      ),
+      'es' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Otro',
+        ),
+      ),
+    ),
+    'path' => array(
+      'alias' => 'organization-types/other',
+      'pathauto' => FALSE,
+    ),
+    'rdf_mapping' => array(
+      'rdftype' => array(
+        0 => 'skos:Concept',
+      ),
+      'name' => array(
+        'predicates' => array(
+          0 => 'rdfs:label',
+          1 => 'skos:prefLabel',
+        ),
+      ),
+      'description' => array(
+        'predicates' => array(
+          0 => 'skos:definition',
+        ),
+      ),
+      'vid' => array(
+        'predicates' => array(
+          0 => 'skos:inScheme',
+        ),
+        'type' => 'rel',
+      ),
+      'parent' => array(
+        'predicates' => array(
+          0 => 'skos:broader',
+        ),
+        'type' => 'rel',
+      ),
+    ),
+    'translations' => array(
+      'original' => 'en',
+      'data' => array(
+        'en' => array(
+          'language' => 'en',
+          'source' => '',
+          'status' => '1',
+          'translate' => '0',
+        ),
+        'fr' => array(
+          'language' => 'fr',
+          'source' => 'en',
+          'status' => '1',
+          'translate' => '0',
+        ),
+        'es' => array(
+          'language' => 'es',
+          'source' => 'en',
+          'status' => '1',
+          'translate' => '0',
+        ),
+      ),
+    ),
+    'uuid' => 'abe34e64-aabc-47dd-ae33-c2760e1d536d',
+    'vocabulary_machine_name' => 'organization_types',
+    'weight' => '0',
+  );
+  
   $entities['organization_types'][] = (object) array(
     '__metadata' => array(
       'type' => 'taxonomy_term',
