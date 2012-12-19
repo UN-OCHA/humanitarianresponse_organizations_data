@@ -444,30 +444,30 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
     ),
     'format' => 'filtered_html',
     'language' => 'und',
-    'name' => 'Red Cross',
+    'name' => 'Red Cross / Red Crescent',
     'name_field' => array(
       'und' => array(
         0 => array(
           'format' => NULL,
-          'value' => 'Red Cross',
+          'value' => 'Red Cross / Red Crescent',
         ),
       ),
       'en' => array(
         0 => array(
           'format' => NULL,
-          'value' => 'Red Cross',
+          'value' => 'Red Cross / Red Crescent',
         ),
       ),
       'fr' => array(
         0 => array(
           'format' => NULL,
-          'value' => 'Croix Rouge',
+          'value' => 'Croix Rouge / Croissant Rouge',
         ),
       ),
       'es' => array(
         0 => array(
           'format' => NULL,
-          'value' => 'Cruz Roja',
+          'value' => 'Cruz Roja / Media Luna Roja',
         ),
       ),
     ),
@@ -1154,6 +1154,111 @@ function humanitarianresponse_organizations_data_uuid_default_entities() {
       ),
     ),
     'uuid' => 'b1109f9e-735a-85e4-d957-36e4c1fbb017',
+    'vocabulary_machine_name' => 'organization_types',
+    'weight' => '0',
+  );
+  
+  $entities['organization_types'][] = (object) array(
+    '__metadata' => array(
+      'type' => 'taxonomy_term',
+      'uri' => 'taxonomy_term/f4d4f969-8e55-4304-bfc3-e0e0df1bd8a2',
+      'cause' => FALSE,
+    ),
+    'description' => '',
+    'description_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'filtered_html',
+          'summary' => NULL,
+          'value' => '',
+        ),
+      ),
+    ),
+    'format' => 'filtered_html',
+    'language' => 'und',
+    'name' => 'Religious',
+    'name_field' => array(
+      'und' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Religious',
+        ),
+      ),
+      'en' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Religious',
+        ),
+      ),
+      'fr' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Religieux',
+        ),
+      ),
+      'es' => array(
+        0 => array(
+          'format' => NULL,
+          'value' => 'Religioso',
+        ),
+      ),
+    ),
+    'path' => array(
+      'alias' => 'organization-types/religious',
+      'pathauto' => FALSE,
+    ),
+    'rdf_mapping' => array(
+      'rdftype' => array(
+        0 => 'skos:Concept',
+      ),
+      'name' => array(
+        'predicates' => array(
+          0 => 'rdfs:label',
+          1 => 'skos:prefLabel',
+        ),
+      ),
+      'description' => array(
+        'predicates' => array(
+          0 => 'skos:definition',
+        ),
+      ),
+      'vid' => array(
+        'predicates' => array(
+          0 => 'skos:inScheme',
+        ),
+        'type' => 'rel',
+      ),
+      'parent' => array(
+        'predicates' => array(
+          0 => 'skos:broader',
+        ),
+        'type' => 'rel',
+      ),
+    ),
+    'translations' => array(
+      'original' => 'en',
+      'data' => array(
+        'en' => array(
+          'language' => 'en',
+          'source' => '',
+          'status' => '1',
+          'translate' => '0',
+        ),
+        'fr' => array(
+          'language' => 'fr',
+          'source' => 'en',
+          'status' => '1',
+          'translate' => '0',
+        ),
+        'es' => array(
+          'language' => 'es',
+          'source' => 'en',
+          'status' => '1',
+          'translate' => '0',
+        ),
+      ),
+    ),
+    'uuid' => 'f4d4f969-8e55-4304-bfc3-e0e0df1bd8a2',
     'vocabulary_machine_name' => 'organization_types',
     'weight' => '0',
   );
